@@ -1,0 +1,28 @@
+project:
+  type: website
+  resources:
+    - images
+    - slides
+
+website:
+  title: "simple_quarto_website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.ipynb
+        text: About
+      - href: slides/slides.ipynb
+        text: Slides
+
+bibliography: reference.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    toc: true
+
+
+

@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "about.html#header-1",
+    "href": "about.html#header-1",
+    "title": "About",
+    "section": "Header 1",
+    "text": "Header 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "about.html#header-2",
+    "href": "about.html#header-2",
+    "title": "About",
+    "section": "Header 2",
+    "text": "Header 2\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "about.html#header-3",
+    "href": "about.html#header-3",
+    "title": "About",
+    "section": "Header 3",
+    "text": "Header 3\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nimport matplotlib.pyplot as plt\n\nx_values = [1, 2, 3, 4, 5]\ny_values = [1, 2, 3, 4, 5]\n\nplt.plot(x_values, y_values)\n\nplt.title(\"Line Plot\")   \nplt.xlabel(\"X-Axis Label\")      \nplt.ylabel(\"Y-Axis Label\")      \nplt.grid(True)                 \n\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.(Habehh and Gohel 2021)\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nBullet list item 1\nItem 2\nItem 3\nItem 4\nItem 5\nItem 6\n\n\n\nBullet list item 1\nItem 2\nItem 3\nItem 4\n\n\n\nBullet list item 1\nItem 2\nItem 3\nItem 4\nItem 5\n\n\n\n\n\n\n\n\n\nID\nUniversity\nLocation\nTuition\nAdmissions Rate\n\n\n\n\n01\nGeorgetown\nDC\n$500\n15%\n\n\n02\nUVA\nVA\n$200\n20%\n\n\n03\nVA Tech\nVA\n$230\n40%\n\n\n04\nWake Forest University\nNC\n$600\n30%\n\n\n05\nHarvard\nMA\n$800\n5%\n\n\n06\nGeorge Washington University\nDC\n$400\n40%\n\n\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\nEinstein’s famous equation: \\(E=Mc^2\\).\nUse Pythagorean theorem to find the hypotenuse: \\[a^2 + b^2 = c^2\\]\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.1\n\n\n\n\n\nIt does not matter how slowly you go as long as you do not stop.\n\nAs said by Confucious, according to this website: https://wisdomquotes.com/famous-quotes/\n\n\n\n\n\n\n\n\n\nPhoto by Joel Holland on Unsplash2\n\n\n\n\n\n\n\n\nPhoto by Joel & Jasmin Førestbird on Unsplash3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Event 1] --&gt; B{Intermediary 1}\n  B --&gt; C[Result 1]\n  B --&gt; D(Outcome 1)\n  B --&gt; F[Result 2]\n  C --&gt; E{Intermediary 2}\n  F --&gt; G{Intermediary 3}\n  E --&gt; H(Outcome 2)\n  E --&gt; I(Outcome 3)\n  G --&gt; J(Outcome 4)\n  G --&gt; K(Outcome 5)\n  G --&gt; L(Outcome 6)\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.(Crossa et al. 2025)"
+  },
+  {
+    "objectID": "index.html#header-1-two-columns",
+    "href": "index.html#header-1-two-columns",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "index.html#header-2-three-columns-with-bulleted-lists",
+    "href": "index.html#header-2-three-columns-with-bulleted-lists",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nBullet list item 1\nItem 2\nItem 3\nItem 4\nItem 5\nItem 6\n\n\n\nBullet list item 1\nItem 2\nItem 3\nItem 4\n\n\n\nBullet list item 1\nItem 2\nItem 3\nItem 4\nItem 5"
+  },
+  {
+    "objectID": "index.html#header-3-comparing-universities",
+    "href": "index.html#header-3-comparing-universities",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "ID\nUniversity\nLocation\nTuition\nAdmissions Rate\n\n\n\n\n01\nGeorgetown\nDC\n$500\n15%\n\n\n02\nUVA\nVA\n$200\n20%\n\n\n03\nVA Tech\nVA\n$230\n40%\n\n\n04\nWake Forest University\nNC\n$600\n30%\n\n\n05\nHarvard\nMA\n$800\n5%\n\n\n06\nGeorge Washington University\nDC\n$400\n40%\n\n\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\nEinstein’s famous equation: \\(E=Mc^2\\).\nUse Pythagorean theorem to find the hypotenuse: \\[a^2 + b^2 = c^2\\]\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.1"
+  },
+  {
+    "objectID": "index.html#header-4-quote",
+    "href": "index.html#header-4-quote",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "It does not matter how slowly you go as long as you do not stop.\n\nAs said by Confucious, according to this website: https://wisdomquotes.com/famous-quotes/"
+  },
+  {
+    "objectID": "index.html#header-5-media",
+    "href": "index.html#header-5-media",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Photo by Joel Holland on Unsplash2\n\n\n\n\n\n\n\n\nPhoto by Joel & Jasmin Førestbird on Unsplash3"
+  },
+  {
+    "objectID": "index.html#header-6-diagram",
+    "href": "index.html#header-6-diagram",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "flowchart LR\n  A[Event 1] --&gt; B{Intermediary 1}\n  B --&gt; C[Result 1]\n  B --&gt; D(Outcome 1)\n  B --&gt; F[Result 2]\n  C --&gt; E{Intermediary 2}\n  F --&gt; G{Intermediary 3}\n  E --&gt; H(Outcome 2)\n  E --&gt; I(Outcome 3)\n  G --&gt; J(Outcome 4)\n  G --&gt; K(Outcome 5)\n  G --&gt; L(Outcome 6)\n\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.(Crossa et al. 2025)"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is a footnote for the section with equations.↩︎\nThis citation was copied directly from Unplash website.↩︎\nThis citation was copied directly from Unplash website.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#citation",
+    "href": "slides/slides.html#citation",
+    "title": "DSAN 5000",
+    "section": "Citation",
+    "text": "Citation\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (Habehh and Gohel 2021)"
+  },
+  {
+    "objectID": "slides/slides.html#image-1",
+    "href": "slides/slides.html#image-1",
+    "title": "DSAN 5000",
+    "section": "Image 1",
+    "text": "Image 1\n\n\n\n\nPhoto by Joel Holland on Unsplash1\n\nThis citation was copied directly from Unplash website."
+  },
+  {
+    "objectID": "slides/slides.html#image-2",
+    "href": "slides/slides.html#image-2",
+    "title": "DSAN 5000",
+    "section": "Image 2",
+    "text": "Image 2\n\n\n\n\nPhoto by Joel & Jasmin Førestbird on Unsplash1\n\nThis citation was copied directly from Unplash website."
+  },
+  {
+    "objectID": "slides/slides.html#code-folding-plot",
+    "href": "slides/slides.html#code-folding-plot",
+    "title": "DSAN 5000",
+    "section": "Code folding plot",
+    "text": "Code folding plot\n#| code-fold: true\n#| code-summary: \"Show code\"\n#| output: true\n\nimport matplotlib.pyplot as plt\n\nx_values = [1, 2, 3, 4, 5]\ny_values = [1, 2, 3, 4, 5]\n\nplt.plot(x_values, y_values)\n\nplt.title(\"Line Plot\")   \nplt.xlabel(\"X-Axis Label\")      \nplt.ylabel(\"Y-Axis Label\")      \nplt.grid(True)                 \n\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#references",
+    "href": "slides/slides.html#references",
+    "title": "DSAN 5000",
+    "section": "References",
+    "text": "References\n\n\n\n\n\nHabehh, Hafsa, and Suril Gohel. 2021. “Machine Learning in Healthcare.” Current Genomics 22 (4): 291–300."
+  }
+]

@@ -1,0 +1,124 @@
+---
+title: "simple_quarto_website"
+---
+
+# Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[@habehh2021machine]
+
+## Header 1: Two Columns
+
+:::{.columns}
+
+::: {.column width="50%"}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+:::
+
+::: {.column width="50%"}
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+:::
+
+:::
+
+## Header 2: Three Columns with Bulleted Lists
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+:::{.columns}
+
+::: {.column width="30%"}
+- Bullet list item 1
+- Item 2
+- Item 3
+- Item 4
+- Item 5
+- Item 6
+:::
+
+::: {.column width="30%"}
+- Bullet list item 1
+- Item 2
+- Item 3
+- Item 4
+:::
+
+::: {.column width="30%"}
+- Bullet list item 1
+- Item 2
+- Item 3
+- Item 4
+- Item 5
+:::
+
+:::
+
+## Header 3: Comparing Universities
+
+| ID | University | Location | Tuition | Admissions Rate |
+|----|------------|----------|---------|-----------------|
+| 01 | Georgetown | DC | $500 | 15%
+| 02 | UVA | VA | $200| 20%
+| 03 | VA Tech | VA | $230 |40%
+| 04 | Wake Forest University | NC | $600 | 30%
+| 05 | Harvard | MA | $800 | 5%
+| 06 | George Washington University | DC | $400 | 40%
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+### Header 3.1: Special Equations
+
+Einstein's famous equation: $E=Mc^2$.
+
+Use Pythagorean theorem to find the hypotenuse:
+$$a^2 + b^2 = c^2$$
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[^1]
+
+[^1]: This is a footnote for the section with equations.
+
+## Header 4: Quote
+
+> It does not matter how slowly you go as long as you do not stop.
+
+As said by Confucious, according to this website: <https://wisdomquotes.com/famous-quotes/>
+
+## Header 5: Media
+
+### Header 5.1
+
+<center> ![](../images/Spring.jpg){width=500} </center>
+
+
+<center> Photo by <a href="https://unsplash.com/@joelholland?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joel Holland</a> on <a href="https://unsplash.com/photos/aerial-photography-of-flowers-at-daytime-TRhGEGdw-YY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>[^2]</center>
+
+[^2]: This citation was copied directly from Unplash website.
+
+### Header 5.1
+<center> ![](../images/Winter.jpg){width=500} </center>
+
+<center>Photo by <a href="https://unsplash.com/@theforestbirds?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joel & Jasmin Førestbird</a> on <a href="https://unsplash.com/photos/landscape-photography-of-snowy-mountain-and-body-of-water-efuwb5eBDrI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>[^3]</center>
+
+[^3]: This citation was copied directly from Unplash website.
+
+### Header 5.3
+
+{{< video https://youtu.be/2gC22SoKpw4?si=Nx1lUvTdpo0871ji >}}
+
+## Header 6: Diagram
+```{mermaid}
+flowchart LR
+  A[Event 1] --> B{Intermediary 1}
+  B --> C[Result 1]
+  B --> D(Outcome 1)
+  B --> F[Result 2]
+  C --> E{Intermediary 2}
+  F --> G{Intermediary 3}
+  E --> H(Outcome 2)
+  E --> I(Outcome 3)
+  G --> J(Outcome 4)
+  G --> K(Outcome 5)
+  G --> L(Outcome 6)
+```
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[@crossa2025machine]
+
